@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="hero">
+        <h1>Cake Magical</h1>
+    </div>
+</header>
+<nav><ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#productos">Productos</a></li>
+</ul></nav>
+<!--Main section (About)-->
+<div id="bg">
+<section>
+    <a name="about"></a>
+    <br><br>
+    <h2>¡Bienvenido a Cake Magical!</h2>
+    <p>Aquí podrás encontrar una gran variedad de tus postres favoritos como Pasteles, tartas, galletas personalizada, gelatinas, gelapaletas, cakepop, cheescake, cupcakes, 
+        Gracias por tu preferencia.
+        </p>
+
+</section>
+<br><hr><br>
+<!--All of the articles-->
+<section>
+    <article class="roll">
+        <div>
+            <h2>
+                Informacion General
+            </h2>
+            <p>Cada uno de nuestros productos estan echos con productos de calidad, 
+                proporcionandole al cliente un delicioso sabor en cualquiera de nuestros pedidos.</p>
+            <br>
+<div class="TB-flavour">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Reglas de pedido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Los pedidos son personalizados 
+                    con una imagen de referencia o con diseño a eleccion</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+            <br>
+<div class="TB-flavour">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Sabores de pan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vainilla</td>
+                <td>Chocolate</td>
+                <td>Moka</td>
+                <td>Naranja</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br>
+<div class="TB-flavour">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Mermeladas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fresa</td>
+                <td>Frambuesa</td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br>
+<div class="TB-flavour">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Coberturas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chantilli</td>
+                <td>Fondant</td>
+                <td>Moka</td>
+                <td>Naranja</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+            <br>
+                <!-- Flickity HTML init -->
+                <br>
+                <a name="productos"></a>
+                <div class="carousel js-flickity"
+                  data-flickity-options='{ "wrapAround": true,"autoPlay": 1500,
+                  "pauseAutoPlayOnHover": true, "imagesLoaad": true}'>
+                  <div class="carousel-cell"><img src="/Images/1.jpg" alt=""></div>
+                  <div class="carousel-cell"><img src="/Images/2.png" alt=""></div>
+                  <div class="carousel-cell"><img src="/Images/3.jpg" alt=""></div>
+                  <div class="carousel-cell"><img src="/Images/4.jpg" alt=""></div>
+                  <div class="carousel-cell"><img src="/Images/5.jpg" alt=""></div>
+                  <div class="carousel-cell"><img src="/Images/6.jpg" alt=""></div>
+                  <div class="carousel-cell"><img src="/Images/7.jpg" alt=""></div>
+                  <div class="carousel-cell"><img src="/Images/8.jpg" alt=""></div>
+                  <div class="carousel-cell"><img src="/Images/9.jpg" alt="">
+                  </div>
+                </div>
+        </div>
+        <br>
+
+    </article>
+</section>
+<section class="contacts">
+</section>
+</div>
+<section class="content1"></section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!--flickity carousel-->
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<!--AOS: Animation on scroll-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init(); </script>
+<!--GSAP-->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+
+<!--Local Scripts-->
+<script src="./Javascript/main.js"></script>
+
+</body>
+</html>
